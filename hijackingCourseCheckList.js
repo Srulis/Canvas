@@ -1,7 +1,6 @@
 //-------------------------------------------------
 //Written by D.Gilogley from Instructure Inc 2017.02.21
 //Purpose: Purpose: To replace the 'creating a course' checklist  with a link to custom 'checklist' which can be found at the top of an unpublished course
-//Dependence: It is reliant on some CSS written attached to the theme
 
 //if no jQuery - Load it
 if(typeof jQuery=='undefined') {
