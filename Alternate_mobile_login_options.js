@@ -5,7 +5,7 @@ var login_image_url = ""; //This is the image icon for the Mobile login. It must
 
 //=========================Do not change anything under this line==================================================
 //====================================================================================================
-//Adds the MS/Office365 login button for mobile devices if Google is in position #2
+//Adds the login button for mobile devices if Canvas is in position #1
 if (typeof jQuery == 'undefined' || typeof jQuery === undefined || typeof jQuery === null) {
 	var headTag = document.getElementsByTagName("head")[0];
 	var jqTag = document.createElement('script');
