@@ -1,7 +1,7 @@
 //Variables
 //The image URLs must be a "https" absolute location
-var login_logo = ""; //This is the Relative login location. Examlpe "/login/microsoft" or "/login/saml" or "/login/google"
-var login_background = ""; //This is the display text in the login Box. Example "Login with Microsoft(Office365)"
+var login_logo = ""; //This is the Login Logo in the centre of the screen
+var login_background = ""; //This is the background image that displays behind the login box and logo
 
 //=========================Do not change anything under this line==================================================
 //====================================================================================================
