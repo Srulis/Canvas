@@ -3,7 +3,7 @@
 
 var login_destination = "" //This is the Relative login location. Examlpe "/login/microsoft" or "/login/saml" or "/login/google"
 var login_text = ""; //This is the display text in the login Box. Example "Login with Microsoft(Office365)"
-var login_image = "" //This is the image icon for the Mobile login. It must be a "https" absolute location
+var login_image = "" //This is the image icon for the login button. It must be a "https" absolute location
 
 //========================Dont change anything beyond these lines ================================
 //================================================================================================
