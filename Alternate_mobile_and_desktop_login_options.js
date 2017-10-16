@@ -23,9 +23,8 @@ function myJQueryCode() {
 		(function() {
 			'use strict';
 			if ($('#login_form') && (document.location.pathname === "/login/canvas" || document.location.pathname === "/login/ldap")) {
-				var googleHTML = document.createElement('center');
-				googleHTML.innerHTML = '<center><br><br><a href="' + login_destination + '" class="btn" style="background-color:white;"> <span><img src="' + login_image + '" style="width: 20%;"></span> <span><br>' + login_text + '</span></a></center>';
-				document.getElementById('login_form').appendChild(googleHTML);
+				var loginHTML = '<center><br><br><a href="' + login_destination + '" class="btn" style="background-color:white;"> <span><img src="' + login_image + '" style="width: 20%;"></span> <span><br>' + login_text + '</span></a></center>';
+				$('#login_form').after(loginHTML);
 			}
 		})();
 	});
