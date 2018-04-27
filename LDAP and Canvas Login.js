@@ -31,3 +31,4 @@ function myJQueryCode() {
 			$('#login_form').after(ldap_loginHTML);
 		}
 	});
+}
