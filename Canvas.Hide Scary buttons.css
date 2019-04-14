@@ -1,6 +1,0 @@
-/* Daniel Gilogley - Hide Scary buttons from non-Admin - Canvas.css*/
-
-/*hide some of the scary buttons for normal staff within the setting pages, like delete etc... */
-aside#right-side > div > a.reset_course_content_button, aside#right-side > div > a.delete_course_link, aside#right-side > div > a[href$="confirm_action?event=conclude"] {
-	display: none;
-}
